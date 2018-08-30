@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url('images/img1.jpg');
+    height: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+  background-color: white;
+}
+p,h1,h2,h3,h4,h5,h6 {
+  text-align: center;
+}
