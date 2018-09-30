@@ -1,20 +1,178 @@
-body, html {
-    height: 100%;
+.events .testimonials {
+  margin: 20px auto 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+.events .testimonials .card{
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+  background: black;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+.events .testimonials .card .content{
+  z-index: 2;
+  position: relative;
+}
+.events .testimonials .card .content p{
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+.events .testimonials .card .content .image img{
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%:
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.events .testimonials .card .layer{
+  top: 0;
+}
+.events .testimonials .card .content .details h2
+{
+  font-size: 18px;
+  color:#fff;
+}
+.events .testimonials .card .content .details h2 span a{
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 20px;
+  transition: scale(0);
+  font-size: 14px;
+}
+.events .testimonials .card:hover .content .details h2 span{
+  color: #fff;
+}
+.events .testimonials .card:hover .layer{
+
+  position: absolute;
+  top: calc(100% - 2px);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: linear-gradient(#03a9f4, #e91ee3);
+  z-index: 1;
+  transition: 0.5s;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #20024a;
 }
 
+span{
+  font-size: 50px;
+}
+#ist{
+  background-color: Aliceblue;
+}
+#ist #h2{
+  text-align: left;
+}
+.container{
+  position: absolute;
+  top: 500%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.container .box{
+  position: relative;
+  width: 250px;
+  height: 500px;
+  background-color: #ccc;
+  transition: 0.5s;
+}
+.container .box .thumb{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+.container .box:nth-child(even) .details{
+  bottom: 0;
+  left: 0;
+}
+.container .box:nth-child(1) .details{
+  background: #8553cb;
+}
+.container .box:nth-child(2) .details{
+  background: #fe8f01;
+}
+.container .box:nth-child(3) .details{
+  background: #79d400;
+}
+.container .box:nth-child(4) .details{
+  background: #ff3b34;
+}
+.container .box .thumb img{
+  width: 100%;
+
+}
+.container .box .details{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background: #262626;
+}
+.container .box .details .content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.5s;
+}
+.container .box .details .content h4{
+  margin: 0;
+  padding: 0;
+  padding: 10px 0;
+  color: #fff;
+}
+.container .box .details .content a{
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 20px;
+  transition: scale(0);
+}
+.container .box:hover .details .content a:hover{
+  background: #fff;
+  color: #262626;
+  transform: scale(1);
+}
+.navbar-brand{
+  color: white;
+}
+
+h3,p, h4, h2,h5,h1,h6{
+  text-align: center;
+}
 .parallax {
-    background-image: url('images/img1.jpg');
+    background-image: url('images/img4.jpg');
     height: 100%;
-    opacity: 0.5;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-div {
-  background-color: white;
-}
-p,h1,h2,h3,h4,h5,h6 {
-  text-align: center;
 }
