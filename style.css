@@ -54,6 +54,25 @@
   transition: scale(0);
   font-size: 14px;
 }
+.parallax span a{
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fff;
+  border: 2px solid #000;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 20px;
+  transition: scale(0);
+  font-size: 14px;
+}
+.parallax span a:hover{
+  background: lightblue;
+  color: #fff;
+  transform: scale(1);
+}
+.parallax span {
+  color: #fff;
+}
 .events .testimonials .card .content .details h2 span a:hover{
   background: #fff;
   color: #262626;
@@ -76,13 +95,6 @@
 body{
   margin: 0;
   padding: 0;
-  background: #20024a;
-}
-
-span{
-  font-size: 50px;
-  text-align: center;
-  
 }
 #ist{
   background-color: Aliceblue;
@@ -92,12 +104,179 @@ span{
 }
 h3,p, h4, h2,h5,h1,h6{
   text-align: center;
+  color: white;
 }
 .parallax {
-    background-image: url('images/img4.jpg');
+    background-image: url('prev/bg.jpg');
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallaxt {
+    background-image: url('images/lg.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxn {
+    background-image: url('images/img11.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxl {
+    background-image: url('images/img11.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxt .row .col-md-4 span a,.col-md-1 span a{
+  display: inline-block;
+  padding: 5px 20px;
+  color: black;
+  background: white;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 20px;
+  transition: scale(0);
+  font-size: 14px;
+}
+.parallaxt .row .col-md-4 span a:hover,.col-md-1 span a:hover{
+  background: lightblue;
+  color: black;
+  transform: scale(1);
+}
+.parallaxt .row .col-md-4 span,.col-md-1 span{
+  color:black;
+}
+
+#c{
+  background: #f5f5f5;
+  color: black;
+}
+#c button{
+  margin-left: 46%;
+}
+.carousel-inner img {
+     width: 100%;
+     height: 50%;
+ }
+ .events .container_eff{
+   position: relative;
+   width: 1200px;
+   height: 300px;
+   margin: 33px auto;
+ }
+ .events .container_eff .box{
+   position: relative;
+   width: calc(400px - 30px);
+   height: calc(350px - 30px);
+   background: #000;
+   float: left;
+   margin: 15px;
+   box-sizing: border-box;
+   overflow: hidden;
+   border-radius: 10px;
+ }
+ .events .container_eff .box .icon{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #f00;
+   transition: 0.5s;
+   z-index: 1;
+ }
+ .events .container_eff .box:hover .icon{
+   top:20px;
+   left: calc(50% - 40px);
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+ }
+ .events .container_eff .box .icon .fa{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 80px;
+   transition: 0.5s;
+   color: #fff;
+ }
+ .events .container_eff .box:hover .icon .fa{
+   font-size: 40px;
+ }
+ .events .container_eff .box .content{
+   position: absolute;
+   text-align: center;
+   top:100%;
+   height: (100% - 100px);
+   padding: 20px;
+   box-sizing: border-box;
+   transition: 0.5s;
+   opacity: 0;
+ }
+ .events .container_eff .box:hover .content{
+   top: 100px;
+   opacity: 1;
+ }
+ .events .container_eff .box .content h3{
+   margin: 0 0 10px;
+   text-align: center;
+   padding: 0;
+   color: #fff;
+   font-size: 24px;
+ }
+ .events .container_eff .box .content p{
+   margin: 0;
+   padding: 0;
+   color: #fff;
+ }
+ .events .container_eff .box:nth-child(1) .icon{
+ background: #319635;
+ }
+ .events .container_eff .box:nth-child(1){
+ background: #4caf50;
+ }
+ .events .container_eff .box:nth-child(2) .icon{
+ background: #d03852;
+ }
+ .events .container_eff .box:nth-child(2){
+ background: #f54967;
+ }
+ .events .container_eff .box:nth-child(3) .icon{
+ background: #23798e;
+ }
+ .events .container_eff .box:nth-child(3){
+ background: #328fa5;
+ }
+ .events .container_eff .box .content span{
+   color: #fff;
+ }
+ .events .container_eff .box .content span a{
+   display: inline-block;
+   padding: 5px 20px;
+   color: #fff;
+   border: 2px solid #fff;
+   text-decoration: none;
+   transition: 0.5s;
+   border-radius: 20px;
+   transition: scale(0);
+   font-size: 14px;
+ }
+ .events .container_eff .box .content span a:hover{
+   background: #fff;
+   color: #262626;
+   transform: scale(1);
+ }
