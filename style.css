@@ -107,7 +107,7 @@ h3,p, h4, h2,h5,h1,h6{
   color: white;
 }
 .parallax {
-    background-image: url('prev/bg.jpg');
+    background-image: url('prev/fin.png');
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -173,9 +173,9 @@ h3,p, h4, h2,h5,h1,h6{
  }
  .events .container_eff{
    position: relative;
-   width: 1200px;
+   width: auto;
    height: 300px;
-   margin: 33px auto;
+   margin: 33px 78px ;
  }
  .events .container_eff .box{
    position: relative;
