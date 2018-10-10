@@ -1,4 +1,12 @@
-
+#particles-js{
+  margin-top: 0%;
+  background-image: url('prev/fin.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .events .testimonials {
   margin: 20px auto 20px;
@@ -54,10 +62,11 @@
   transition: scale(0);
   font-size: 14px;
 }
-.parallax span a{
+#particles-js #register span a{
   display: inline-block;
   padding: 5px 20px;
   color: #fff;
+  background: black;
   border: 2px solid #000;
   text-decoration: none;
   transition: 0.5s;
@@ -65,13 +74,13 @@
   transition: scale(0);
   font-size: 14px;
 }
-.parallax span a:hover{
-  background: lightblue;
-  color: #fff;
+#particles-js #register span a:hover{
+  background: white;
+  color: #000;
   transform: scale(1);
 }
-.parallax span {
-  color: #fff;
+#particles-js #register span {
+  color: #000;
 }
 .events .testimonials .card .content .details h2 span a:hover{
   background: #fff;
@@ -111,8 +120,8 @@ h3,p, h4, h2,h5,h1,h6{
     height: 100%;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .parallaxt {
     background-image: url('images/lg.jpg');
@@ -139,9 +148,10 @@ h3,p, h4, h2,h5,h1,h6{
     background-size: cover;
 }
 
-.parallaxt .row .col-md-4 span a,.col-md-1 span a{
+.parallaxt .row .col-md-2 span a,.col-md-4 span a{
   display: inline-block;
   padding: 5px 20px;
+  margin-left: 50px;
   color: black;
   background: white;
   border: 2px solid #fff;
@@ -151,13 +161,10 @@ h3,p, h4, h2,h5,h1,h6{
   transition: scale(0);
   font-size: 14px;
 }
-.parallaxt .row .col-md-4 span a:hover,.col-md-1 span a:hover{
+.parallaxt .row .col-md-2 span a:hover,.col-md-4 span a:hover{
   background: lightblue;
   color: black;
   transform: scale(1);
-}
-.parallaxt .row .col-md-4 span,.col-md-1 span{
-  color:black;
 }
 
 #c{
@@ -173,14 +180,14 @@ h3,p, h4, h2,h5,h1,h6{
  }
  .events .container_eff{
    position: relative;
-   width: auto;
-   height: 300px;
-   margin: 33px 78px ;
+   width: 1230;
+   height: 310px;
+   margin: 33px auto ;
  }
  .events .container_eff .box{
    position: relative;
-   width: calc(400px - 30px);
-   height: calc(350px - 30px);
+   width: calc(410px - 30px);
+   height: calc(310px - 30px);
    background: #000;
    float: left;
    margin: 15px;
@@ -244,22 +251,22 @@ h3,p, h4, h2,h5,h1,h6{
    color: #fff;
  }
  .events .container_eff .box:nth-child(1) .icon{
- background: #319635;
+ background: #D3D3D3;
  }
  .events .container_eff .box:nth-child(1){
- background: #4caf50;
+ background: #778899;
  }
  .events .container_eff .box:nth-child(2) .icon{
- background: #d03852;
+ background: #D3D3D3;
  }
  .events .container_eff .box:nth-child(2){
- background: #f54967;
+ background: #778899;
  }
  .events .container_eff .box:nth-child(3) .icon{
- background: #23798e;
+ background: #D3D3D3;
  }
  .events .container_eff .box:nth-child(3){
- background: #328fa5;
+ background: #778899;
  }
  .events .container_eff .box .content span{
    color: #fff;
@@ -280,3 +287,76 @@ h3,p, h4, h2,h5,h1,h6{
    color: #262626;
    transform: scale(1);
  }
+#particles-js #register .parallaxa{
+  opacity: 0.9;
+  position: absolute;
+  margin-top: 20%;
+  margin-left:43%;
+}
+.parallaxt .row .img img{
+  width:70%;
+  margin-left:100%;
+}
+@media (max-width: 992px) {
+  .parallaxt .row .img img{
+    width:70%;
+    margin-left:15%;
+  }
+  #particles-js #register .parallaxa{
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 69%;
+    margin-left:27%;
+  }
+  .events .container_eff{
+    position: relative;
+    width: auto;
+    height: 310px;
+    margin: 33px auto ;
+  }
+  .events .container_eff .box .content{
+    position: absolute;
+    text-align: center;
+    top:100%;
+    height: (100% - 100px);
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .events .container_eff .box{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .parallaxt .row .col-md-2 span a,.col-md-4 span a{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 0;
+    color: black;
+    background: white;
+    border: 2px solid #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 20px;
+    transition: scale(0);
+    font-size: 14px;
+  }
+  .events .testimonials .card{
+    position: relative;
+    width: 320px;
+    margin: 0 0;
+    background: black;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    overflow: hidden;
+  }
+}
