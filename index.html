@@ -1,380 +1,236 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <title>Trigger'18</title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto+Mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Kanit|Notable" rel="stylesheet">
-
-  <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trigger'18 | Ignite Yourself</title>
+  <meta name="description" content="TRIGGER 2K18 — National level technical symposium by the Department of CSE, RajaRajeswari College of Engineering, Bengaluru.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kanit:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <img src="images/logo.png" alt="Trigger2K18" style="width:30px;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarNavDropdown" class="navbar-collapse collapse">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="#"><b>Home</b></a></li>
-              <li class="nav-item"><a class="nav-link" href="#aboutus"><b>About Us</b></a></li>
-              <li class="nav-item"><a class="nav-link" href="#events"><b>Events</b></a></li>
-              <li class="nav-item"><a class="nav-link" href="#highlights"><b>Gallery</b></a></li>
-              <li class="nav-item"><a class="nav-link" href="#wps"><b>Crowd Talk</b></a></li>
-              <li class="nav-item"><a class="nav-link" href="sponsors.html"><b>Sponsors</b></a></li>
-              <li class="nav-item"><a class="nav-link" href="#contactus"><b>Contact Us</b></a></li>
-              <li class="nav-item"><a class="nav-link" href="template/ourteam.html"><b>Our Team</b></a></li>
-            </ul>
-        </div>
-    </nav>
-    <div id="particles-js">
-      <div id="register">
-        <span><a class="parallaxa" href="https://goo.gl/forms/pGgMizliHoOWvo7y1" target="_blank"><b>Register Now</b></a></span>
+
+  <nav class="navbar">
+    <div class="container">
+      <a class="brand" href="#home"><img src="images/logo.png" alt=""><span>TRIGGER<b>'18</b></span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#crowd-talk">Crowd Talk</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+        <li><a href="template/ourteam.html">Our Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-inner container">
+      <img class="hero-logo" src="images/final-logo.png" alt="Trigger 2K18 — Ignite Yourself">
+      <div class="hero-meta">
+        <span><i class="fa fa-calendar"></i>26 October 2018</span>
+        <span><i class="fa fa-map-marker"></i>RajaRajeswari College of Engineering, Bengaluru</span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://goo.gl/forms/pGgMizliHoOWvo7y1" target="_blank" rel="noopener">Register Now <i class="fa fa-arrow-right"></i></a>
+        <a class="btn btn-outline" href="#events">Explore Events</a>
       </div>
     </div>
+    <a class="scroll-hint" href="#about" aria-label="Scroll down"><i class="fa fa-angle-down"></i></a>
+  </header>
 
-    <script type="text/javascript" src="images/particles.js"></script>
-    <script type="text/javascript" src="images/app.js"></script>
+  <section id="about" class="section-alt">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <span class="eyebrow">About Trigger</span>
+        <h2>A national stage for student talent</h2>
+        <p>We, the Department of Computer Science and Engineering, RajaRajeswari College of Engineering, Bengaluru, proudly organise TRIGGER, a national level technical symposium, and have done so for the past three years with great success. We host a range of technical and non-technical events where students can showcase their talents, and every year participants from colleges across India encourage us to keep it going.</p>
+        <p>Like previous years, this year we host TRIGGER 2K18 on <strong>26th October 2018</strong> with the theme <strong>'Ignite Yourself'</strong> — a platform for students across the nation to exhibit their innovations.</p>
+        <p class="sign">— Team Trigger</p>
+      </div>
+      <div class="about-img reveal">
+        <img src="prev/img1.jpg" alt="Audience at a previous Trigger event" loading="lazy">
+      </div>
+    </div>
+  </section>
 
-    <script type="text/javascript">
-    $('.navbar-nav>li>a').on('click', function(){
-  $('.navbar-collapse').collapse('hide');
-});
-    </script>
-<div id="aboutus" style="font-family: 'Kanit', sans-serif;"><br><br>
-<h2><b>About Trigger</b></h2><br>
-<div class="row">
-  <div class="col-sm-2"></div>
-  <div class="col-sm-8">
-    <p><h4 style="font-size:17px;text-align:justify;">We the Computer Science and Engineering Department,Rajarajeswari College of Engineering, Bengaluru proudly organizing the National level technical symposium TRIGGER from the past three year's. Every year we are conducting this event in a much grand success way. We host various technical and non technical events for students to showcase their talents. Each year we have the participants from various different colleges of India who enthusiastically encourage us for continous conduction of this event.</h4></p>
-    <p><h4 style="font-size:17px;text-align:justify">Like previous years, this year we have our TRIGGER 2K18 on 26th October 2018 with caption 'Ignite Yourself'. This event provides a platform for all the students across the nation to exhibit their innovations.</h4></p>
-    <h6>-Team Trigger</h6>
+  <div class="stats">
+    <div class="container">
+      <h2>Some Interesting Facts</h2>
+      <div class="stats-grid">
+        <div><div class="stat-num">53+</div><div class="stat-label">Attractive prizes to be won</div></div>
+        <div><div class="stat-num">350+</div><div class="stat-label">Participants at TRIGGER'17</div></div>
+        <div><div class="stat-num">12+</div><div class="stat-label">Events</div></div>
+        <div><div class="stat-num">4.7/5</div><div class="stat-label">Rating by our participants</div></div>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-2"></div>
-</div>
-</div>
-<div id="ist"><br>
-  <h4 style="text-align:left; margin-left: 40%; font-size: 200%;">Some Intresting Facts</h4>
-  <div class="row">
-    <div class="col-sm-3">
-      <h2>53+</h2>
-      <h6>Attractive Prizes can be Won</h6>
-    </div>
-    <div class="col-sm-3">
-      <h2>350+</h2>
-      <h6>Participants - TRIGGER'17</h6>
-    </div>
-    <div class="col-sm-3">
-      <h2>12+</h2>
-      <h6>Events</h6>
-    </div>
-    <div class="col-sm-3">
-      <h2>4.7/5</h2>
-      <h6>Star rating by our participants</h6>
-    </div>
-    <div class="col-sm-3"></div>
-  </div>
-  <br>
-</div>
-<div id="events" class="events"><br><br>
-  <h2>Wings Under TRIGGER'18</h2>
-  <h4>Click on the tab for more details</h4>
-  <div class="container_eff">
-      <div class="box">
-        <div class="icon">
-          <i class="fa fa-th-large" aria-hidden="true"></i>
-        </div>
-        <div class="content" style="color:white;">
+
+  <section id="events">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Events</span>
+        <h2>Wings Under TRIGGER'18</h2>
+        <p>Pick a track to see its events, rule books and registration.</p>
+      </div>
+      <div class="cat-grid">
+        <a class="cat-card reveal" href="template/tech.html">
+          <div class="cat-icon"><i class="fa fa-code"></i></div>
           <h3>Technical Events</h3>
-          <h6>To Know More and for Registration Click Below</h6><br>
-          <span><a href="template/tech.html">Read More</a></span>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icon">
-          <i class="fa fa-binoculars" aria-hidden="true"></i>
-        </div>
-        <div class="content">
+          <p>Debate, web design, paper presentation and technical pictography — a professional game between programmers.</p>
+          <span class="link">View events <i class="fa fa-arrow-right"></i></span>
+        </a>
+        <a class="cat-card reveal" href="template/logical.html">
+          <div class="cat-icon"><i class="fa fa-puzzle-piece"></i></div>
           <h3>Logical-Thinking Events</h3>
-          <p>To Know More and for Registration Click Below</p><br>
-          <span><a href="template/logical.html">Read More</a></span>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icon">
-          <i class="fa fa-gamepad" aria-hidden="true"></i>
-        </div>
-        <div class="content">
+          <p>Black Coding and Fusion — put your problem solving to the test.</p>
+          <span class="link">View events <i class="fa fa-arrow-right"></i></span>
+        </a>
+        <a class="cat-card reveal" href="template/nontech.html">
+          <div class="cat-icon"><i class="fa fa-gamepad"></i></div>
           <h3>Non-Technical Events</h3>
-          <p>To Know More and for Registration Click Below</p><br>
-          <span><a href="template/nontech.html">Read More</a></span>
-        </div>
+          <p>Eat &amp; Win, Mock CID, NFS, Counter Strike, PUBG Mobile and photography.</p>
+          <span class="link">View events <i class="fa fa-arrow-right"></i></span>
+        </a>
       </div>
     </div>
-</div>
-<div id="highlights" class="container" style="font-family: 'Roboto Mono', monospace;"><br><br>
-    <h2>Photo Gallery</h2><br>
-    <h5>Here's a glimpse at some of the Major Highlights of Trigger!</h5><br>
-    <section class="container py-4">
-        <div class="row">
-            <div class="col-md-12">
-                <ul id="tabsJustified" class="nav nav-tabs">
-                    <li class="nav-item"><a href="" data-target="#home" data-toggle="tab" class="nav-link small text-uppercase active">All HighLights</a></li>
-                    <li class="nav-item"><a href="" data-target="#tech" data-toggle="tab" class="nav-link small text-uppercase">Technical</a></li>
-                    <li class="nav-item"><a href="" data-target="#nontech" data-toggle="tab" class="nav-link small text-uppercase">Non-Technical</a></li>
-                    <li class="nav-item"><a href="" data-target="#lgth" data-toggle="tab" class="nav-link small text-uppercase">Logical-Thinking</a></li>
-                </ul>
-                <br>
-                <div id="tabsJustifiedContent" class="tab-content">
-                    <div id="home" class="tab-pane fade active show">
-                      <div class="row"><br>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img1.jpg" alt="img" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img2.jpg" alt="img" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img3.jpg" alt="img" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img4.jpg" alt="img" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3"><br>
-                          <div class="thumbnail">
-                              <img src="prev/img5.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3"><br>
-                          <div class="thumbnail">
-                              <img src="prev/img6.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3"><br>
-                          <div class="thumbnail">
-                              <img src="prev/img7.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3"><br>
-                          <div class="thumbnail">
-                              <img src="prev/img8.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3"><br>
-                          <div class="thumbnail">
-                              <img src="prev/img9.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3"><br>
-                          <div class="thumbnail">
-                              <img src="prev/img10.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3"><br>
-                          <div class="thumbnail">
-                              <img src="prev/img11.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3"><br>
-                          <div class="thumbnail">
-                              <img src="prev/img12.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="tech" class="tab-pane fade">
-                      <div class="row"><br>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img16.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img1.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img14.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img9.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="nontech" class="tab-pane fade">
-                      <div class="row"><br>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img8.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img7.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img10.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img3.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="lgth" class="tab-pane fade">
-                      <div class="row"><br>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img5.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img6.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img3.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                              <img src="prev/img15.jpg" alt="Lights" style="width:100%">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
+  </section>
+
+  <section id="gallery" class="section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Photo Gallery</span>
+        <h2>Highlights from Trigger</h2>
+        <p>A glimpse at some of the major moments from previous editions.</p>
+      </div>
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-filter="all" role="tab" aria-selected="true">All Highlights</button>
+        <button class="tab" data-filter="tech" role="tab" aria-selected="false">Technical</button>
+        <button class="tab" data-filter="nontech" role="tab" aria-selected="false">Non-Technical</button>
+        <button class="tab" data-filter="logical" role="tab" aria-selected="false">Logical-Thinking</button>
+      </div>
+      <div class="gallery">
+        <button class="gallery-item" data-cat="tech"><img src="prev/img1.jpg" alt="Trigger highlight 1" loading="lazy"></button>
+        <button class="gallery-item"><img src="prev/img2.jpg" alt="Trigger highlight 2" loading="lazy"></button>
+        <button class="gallery-item" data-cat="nontech logical"><img src="prev/img3.jpg" alt="Trigger highlight 3" loading="lazy"></button>
+        <button class="gallery-item"><img src="prev/img4.jpg" alt="Trigger highlight 4" loading="lazy"></button>
+        <button class="gallery-item" data-cat="logical"><img src="prev/img5.jpg" alt="Trigger highlight 5" loading="lazy"></button>
+        <button class="gallery-item" data-cat="logical"><img src="prev/img6.jpg" alt="Trigger highlight 6" loading="lazy"></button>
+        <button class="gallery-item" data-cat="nontech"><img src="prev/img7.jpg" alt="Trigger highlight 7" loading="lazy"></button>
+        <button class="gallery-item" data-cat="nontech"><img src="prev/img8.jpg" alt="Trigger highlight 8" loading="lazy"></button>
+        <button class="gallery-item" data-cat="tech"><img src="prev/img9.jpg" alt="Trigger highlight 9" loading="lazy"></button>
+        <button class="gallery-item" data-cat="nontech"><img src="prev/img10.jpg" alt="Trigger highlight 10" loading="lazy"></button>
+        <button class="gallery-item"><img src="prev/img11.jpg" alt="Trigger highlight 11" loading="lazy"></button>
+        <button class="gallery-item"><img src="prev/img12.jpg" alt="Trigger highlight 12" loading="lazy"></button>
+        <button class="gallery-item" data-cat="tech"><img src="prev/img14.jpg" alt="Trigger highlight 13" loading="lazy"></button>
+        <button class="gallery-item" data-cat="logical"><img src="prev/img15.jpg" alt="Trigger highlight 14" loading="lazy"></button>
+        <button class="gallery-item" data-cat="tech"><img src="prev/img16.jpg" alt="Trigger highlight 15" loading="lazy"></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="promo">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Promo</span>
+        <h2>Watch the Trigger'18 promo</h2>
+      </div>
+      <div class="video-wrap reveal">
+        <video controls preload="none" poster="prev/fin.png">
+          <source src="videos/trigger_promo.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section id="crowd-talk" class="section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Crowd Talk</span>
+        <h2>What people say about Trigger</h2>
+      </div>
+      <div class="slider reveal">
+        <div class="slides">
+          <div class="slide"><img src="prev/wps1.jpg" alt="Message from Dr. S. Usha, Prof &amp; Head, CSE, RRCE" loading="lazy"></div>
+          <div class="slide"><img src="prev/wps2.jpg" alt="Crowd Talk message 2" loading="lazy"></div>
+          <div class="slide"><img src="prev/wps3.jpg" alt="Crowd Talk message 3" loading="lazy"></div>
+          <div class="slide"><img src="prev/wps4.jpg" alt="Crowd Talk message 4" loading="lazy"></div>
         </div>
-    </section>
-</div>
+        <button class="slider-btn slider-prev" aria-label="Previous"><i class="fa fa-chevron-left"></i></button>
+        <button class="slider-btn slider-next" aria-label="Next"><i class="fa fa-chevron-right"></i></button>
+        <div class="dots"></div>
+      </div>
+    </div>
+  </section>
 
-<div id="wps"><br><br>
-  <div id="demo" class="carousel slide" data-ride="carousel">
+  <section id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Contact Us</span>
+        <h2>Get in touch</h2>
+        <p>For registrations, sponsorship and general queries, reach out to the people below.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <h3>Faculty Co-ordinators</h3>
+          <div class="person"><strong>Prof. Shashidhar</strong><a href="tel:+919538231393"><i class="fa fa-phone"></i>+91 95382 31393</a></div>
+          <div class="person"><strong>Prof. Shwetha</strong><a href="tel:+917760620505"><i class="fa fa-phone"></i>+91 77606 20505</a></div>
+        </div>
+        <div class="contact-card reveal">
+          <h3>Registration</h3>
+          <div class="person"><strong>Piyush Jain</strong><a href="tel:+919035218271"><i class="fa fa-phone"></i>+91 90352 18271</a></div>
+          <div class="person"><strong>Ankith</strong><a href="tel:+918660023005"><i class="fa fa-phone"></i>+91 86600 23005</a></div>
+        </div>
+        <div class="contact-card reveal">
+          <h3>Sponsorship</h3>
+          <div class="person"><strong>Manu R</strong><a href="tel:+917899991331"><i class="fa fa-phone"></i>+91 78999 91331</a></div>
+          <div class="person"><strong>Akshay</strong><a href="tel:+918296471492"><i class="fa fa-phone"></i>+91 82964 71492</a></div>
+        </div>
+        <div class="contact-card reveal">
+          <h3>General Queries</h3>
+          <div class="person"><strong>Manjunatha M S</strong><a href="tel:+919481566564"><i class="fa fa-phone"></i>+91 94815 66564</a></div>
+          <div class="person"><strong>Hiya Choudhary</strong><a href="tel:+918310074671"><i class="fa fa-phone"></i>+91 83100 74671</a></div>
+        </div>
+      </div>
+      <div class="map-cta">
+        <a class="btn btn-outline" href="https://www.google.com/maps/place/RajaRajeswari+College+of+Engineering/" target="_blank" rel="noopener"><i class="fa fa-map-marker"></i> Locate Us on Map</a>
+      </div>
+    </div>
+  </section>
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
-  </ul>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="prev/wps1.jpg" alt="msg" width="1100" height="500">
-    </div>
-    <div class="carousel-item">
-      <img src="prev/wps2.jpg" alt="msg" width="1100" height="500">
-    </div>
-    <div class="carousel-item">
-      <img src="prev/wps3.jpg" alt="msg" width="1100" height="500">
-    </div>
-    <div class="carousel-item">
-      <img src="prev/wps4.jpg" alt="msg" width="1100" height="500">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-</div>
-<div id="contactus" style="font-family: 'Roboto Mono', monospace;"><br><br>
-  <h2><b>Contact Us</b></h2><br><br>
-  <h5><b>For Registrations, Sponsorship and General Queries, Contact Us with the Details Below</b></h5>
-  <div class="row"><br><br>
-    <div class="col-md-2"></div>
-    <div class="col-md-2">
-      <h5>Faculty Co-ordinators</h5>
-      <h6>Prof. Shashidhar</h6>
-      <h6>+919538231393</h6>
-      <h6>Prof. Shwetha</h6>
-      <h6>+917760620505</h6>
-    </div>
-    <div class="col-md-2">
-      <h5>Registration</h5>
-      <h6>Piyush Jain</h6>
-      <h6>+919035218271</h6>
-      <h6>Ankith</h6>
-      <h6>+918660023005</h6>
-    </div>
-    <div class="col-md-2">
-      <h5>Sponsorship</h5>
-      <h6>Manu R</h6>
-      <h6>+917899991331</h6>
-      <h6>Akshay</h6>
-      <h6>+918296471492</h6>
-    </div>
-    <div class="col-md-2">
-      <h5>General Queries</h5>
-      <h6>Manjunatha M S</h6>
-      <h6>+919481566564</h6>
-      <h6>Hiya Choudhary</h6>
-      <h6>+918310074671</h6>
-    </div>
-    <div class="col-md-2">.</div>
-  </div>
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <a href="https://www.google.com/maps/place/RajaRajeswari+College+of+Engineering/" target="_blank" class="btn btn-secondary btn-lg btn-block">Locate Us On Map</a>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-</div>
-<footer class="page-footer font-small blue pt-4">
-    <div style="background-color:#f5f5f5;" class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="http://wwww.trigger2k18.com">Trigger'18</a>
-      <p style="text-align:center;color: black;font-size:10px;">PROUDLY BUILT BY: Manjunatha M S,7th Sem</p>
+  <footer class="footer">
+    <div class="container">
+      <a class="brand" href="#home"><img src="images/logo.png" alt=""><span>TRIGGER<b>'18</b></span></a>
+      <ul class="footer-links">
+        <li><a href="template/tech.html">Technical</a></li>
+        <li><a href="template/logical.html">Logical-Thinking</a></li>
+        <li><a href="template/nontech.html">Non-Technical</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+        <li><a href="template/ourteam.html">Our Team</a></li>
+      </ul>
+      <div>© 2018 Trigger'18 · Dept. of CSE, RajaRajeswari College of Engineering</div>
+      <small>Proudly built by Manjunatha M S, 7th Sem</small>
     </div>
   </footer>
 
-<script>
-$(document).ready(function(){
-    $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-    $('.nav-tabs a').on('shown.bs.tab', function(event){
-        var x = $(event.target).text();         // active tab
-        var y = $(event.relatedTarget).text();  // previous tab
-        $(".act span").text(x);
-        $(".prev span").text(y);
-    });
-});
-</script>
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lb-btn lb-close" aria-label="Close"><i class="fa fa-times"></i></button>
+    <button class="lb-btn lb-prev" aria-label="Previous image"><i class="fa fa-chevron-left"></i></button>
+    <img src="" alt="">
+    <button class="lb-btn lb-next" aria-label="Next image"><i class="fa fa-chevron-right"></i></button>
+  </div>
+
+  <script src="images/particles.js?v=2"></script>
+  <script src="images/app.js?v=3"></script>
+  <script src="main.js?v=2"></script>
 </body>
 </html>

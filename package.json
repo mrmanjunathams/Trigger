@@ -1,0 +1,9 @@
+{
+  "name": "trigger18",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trigger'18 symposium website",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
